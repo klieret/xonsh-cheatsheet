@@ -17,9 +17,9 @@ Sorted by probability of use.
 * Evaluate python in bash command: `@(python_var)`, `@(1+1)`
 * Capture output of bash command as string: `$(ls)`
     * Same but silent: `$[ls]`
-* Environment variables: 
+* Environment variables:
     * Environment variable: `$HOME`
-    * All environment variables: `${...}` 
+    * All environment variables: `${...}`
     * Environment variable from python expression: `${'HO'+'ME'}`
 * Run bash command and return `CommandPipeline` object: `!(ls)`
     * Same but silent: `![ls]`
