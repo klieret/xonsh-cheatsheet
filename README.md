@@ -39,5 +39,5 @@ Sorted by probability of use.
 * Command line arguments:
     * Command line argument: `$ARG<n>` (e.g., `$ARG1`)
     * All arguments as python list: `$ARGS`
- 
+
 [pathlib]: https://docs.python.org/3/library/pathlib.html
