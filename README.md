@@ -26,9 +26,18 @@ Sorted by probability of use.
     * Environment variable from python expression: `${'HO'+'ME'}`
 * Run bash command and return `CommandPipeline` object: `!(ls)`
     * Same but silent: `![ls]`
+* Globbing: ``g`a*b*` `` lists all filenames (`str`) that match `a*b*` in the working directory
+* Using [`pathlib`][pathlib]:
+    * `p"/this/is/a/path/"` is a `Path`
+    * Globbing: `` p`*.pt` `` retuns list of `Path`s
 
 ## Scripting
 
+* Settings:
+    * `$XONSH_SHOW_TRACEBACK = True`: Show verbose traceback
+    * `$RAISE_SUBPROC_ERROR = True`: Raise error if subprocess fails (e.g., `$(doesntexist)`)
 * Command line arguments:
     * Command line argument: `$ARG<n>` (e.g., `$ARG1`)
     * All arguments as python list: `$ARGS`
+
+[pathlib]: https://docs.python.org/3/library/pathlib.html
