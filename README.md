@@ -23,3 +23,9 @@ Sorted by probability of use.
     * Environment variable from python expression: `${'HO'+'ME'}`
 * Run bash command and return `CommandPipeline` object: `!(ls)`
     * Same but silent: `![ls]`
+
+## Scripting
+
+* Command line arguments:
+    * Command line argument: `$ARG<n>` (e.g., `$ARG1`)
+    * All arguments as python list: `$ARGS`
