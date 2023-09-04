@@ -1,5 +1,8 @@
 # Minimal xonsh cheat sheet
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/klieret/xonsh-cheatsheet-minimal/main.svg)](https://results.pre-commit.ci/latest/github/klieret/xonsh-cheatsheet-minimal/main)
+[![Check Markdown links](https://github.com/klieret/xonsh-cheatsheet-minimal/actions/workflows/check-links.yaml/badge.svg)](https://github.com/klieret/xonsh-cheatsheet-minimal/actions/workflows/check-links.yaml)
+
 Cheat sheet for [xonsh][].
 For a longer cheat sheet, take a look at [anki-code's version](https://github.com/anki-code/xonsh-cheatsheet)
 
