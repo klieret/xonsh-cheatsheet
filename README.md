@@ -17,7 +17,7 @@ For a longer cheat sheet, take a look at [anki-code's version](https://github.co
 
 Sorted by probability of use.
 
-* Evaluate python in bash command: `@(python_var)`, `@(1+1)`
+* ![sh][sh] Evaluate python: `@(python_var)`, `@(1+1)`
 * Capture output of bash command as string: `$(ls)`
     * Same but silent: `$[ls]`
 * Environment variables:
@@ -29,7 +29,7 @@ Sorted by probability of use.
 * Globbing: ``g`a*b*` `` lists all filenames (`str`) that match `a*b*` in the working directory
 * Using [`pathlib`][pathlib]:
     * `p"/this/is/a/path/"` is a `Path`
-    * Globbing: `` p`*.pt` `` retuns list of `Path`s
+    * Globbing: `` p`*.pt` `` returns list of `Path`s
 
 ## Scripting
 
@@ -41,3 +41,4 @@ Sorted by probability of use.
     * All arguments as python list: `$ARGS`
 
 [pathlib]: https://docs.python.org/3/library/pathlib.html
+[sh]: readme_assets/sh.svg
