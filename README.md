@@ -1,10 +1,12 @@
 # Minimal xonsh cheat sheet
 
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/klieret/xonsh-cheatsheet-minimal/main.svg)](https://results.pre-commit.ci/latest/github/klieret/xonsh-cheatsheet-minimal/main)
 [![Check Markdown links](https://github.com/klieret/xonsh-cheatsheet-minimal/actions/workflows/check-links.yaml/badge.svg)](https://github.com/klieret/xonsh-cheatsheet-minimal/actions/workflows/check-links.yaml)
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 Cheat sheet for [xonsh].
-For a longer cheat sheet, take a look at [anki-code's version](https://github.com/anki-code/xonsh-cheatsheet)
+For a longer cheat sheet, take a look at [anki-code's version](https://github.com/anki-code/xonsh-cheatsheet).
 
 [xonsh]: https://xon.sh/
 
@@ -38,12 +40,12 @@ For a longer cheat sheet, take a look at [anki-code's version](https://github.co
 
 ## Scripting
 
-* ![pysh] Settings:
+* ![py] Settings:
     * `$XONSH_SHOW_TRACEBACK = True`: Show verbose traceback
     * `$RAISE_SUBPROC_ERROR = True`: Raise error if subprocess fails (e.g., `$(doesntexist)`)
 * ![pysh] Command line arguments:
     * Command line argument: `$ARG<n>` (e.g., `$ARG1`)
-    * All arguments as python list: `$ARGS`
+    * ![py] All arguments as list: `$ARGS`
 
 [pathlib]: https://docs.python.org/3/library/pathlib.html
 [sh]: readme_assets/sh.svg
