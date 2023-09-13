@@ -47,6 +47,15 @@ For a longer cheat sheet, take a look at [anki-code's version](https://github.co
     * Command line argument: `$ARG<n>` (e.g., `$ARG1`)
     * ![py] All arguments as list: `$ARGS`
 
+Template:
+
+```xsh
+#!/usr/bin/env xonsh
+
+$XONSH_SHOW_TRACEBACK = True
+$RAISE_SUBPROC_ERROR = True
+```
+
 [pathlib]: https://docs.python.org/3/library/pathlib.html
 [sh]: readme_assets/sh.svg
 [py]: readme_assets/py.svg
